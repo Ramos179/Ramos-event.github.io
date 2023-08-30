@@ -1,0 +1,220 @@
+html{
+    font-size: 16px;
+
+}
+body{
+    max-width: 100%;
+    background-color: hsl(188,53%,18%);
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 100%;
+    background-color: hsl(350, 66%, 96%);
+    color: hsl(195,3%,21%);
+    top: 0;
+    margin-bottom: 15rem;
+    height: 8rem;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    margin: 0 -3rem;
+}
+ul li{
+    margin: 0 5rem;
+
+}
+a{
+    text-decoration:solid;
+    color: hsl(195,3%,21%);
+
+}
+a:hover{
+    cursor: pointer;
+    color: hsl(188,53%,18%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: hsl(200,4%,11%);
+    color: hsl(206,4%,59%);
+    letter-spacing: 0.25rem;
+    margin-bottom: 15rem;
+}
+article{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+article h2{
+    color: hsl(26,87%,78%);
+    letter-spacing: 0.25rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+article p{
+    margin-left: 2rem;
+    color: hsl(206,4%,59%);
+    font-size: 2rem;
+}
+article a {
+    text-decoration:solid;
+}
+article a:hover{
+    color: hsl(26,87%,78%);
+}
+main{
+    width: 100%;
+}
+.image-container{
+ width: 100%;
+ height: 35rem;
+ margin: 2.5rem 0;
+}
+.one{
+    background-image: url("C:/Mine/Projects/DevProject/Event/Images/todd-quackenbush-E9PJO_vL3E8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    background-image: url("C:/Mine/Projects/DevProject/Event/Images/jenny-hill-mQVWb7kUoOE-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three{
+    background-image: url("C:/Mine/Projects/DevProject/Event/Images/viktor-bystrov-Gi0OMNguFaw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside{
+    background-color: hsl(203,60%,90%);
+    color: hsl(228,36%,27%);
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}   
+aside p{
+    font-size: 5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1rem;
+}
+aside span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.four{
+    background-image: url("C:/Mine/Projects/DevProject/Event/Images/algi-vmdJ6n8PIa8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.figure{
+    padding: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    color: hsl(26,87%,78%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box{
+    width: 18.75rem;
+    height: 25rem;
+    background-image: url("C:/Mine/Projects/DevProject/Event/Images/david-marcu-VfUN94cUy4o-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    max-width: 100%;
+    background-color: hsl(350, 66%, 96%);
+    color: hsl(195,3%,21%);
+    bottom: 0;
+    margin-top: 15rem;
+    height: 8rem;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+                    /*Mobile start*/
+@media only screen and (max-width:650px){
+    header{
+        margin-bottom: 7rem;
+        height: 7rem;
+        font-size: 1rem;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        list-style:none;
+        margin: 0 -2rem;
+    }
+    nav{
+        height: 10rem;
+        font-size: 1.5rem;
+        margin-bottom: 7rem;
+    }
+    article h2{
+        letter-spacing: 0.25rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    article p{
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+    .image-container{
+        height: 20rem;
+        margin: 1.5rem 0;
+       }
+       aside{
+        height: 30rem;
+    }   
+    aside p{
+        font-size: 2.6rem;
+        margin-left: 1rem;
+    }
+    aside span{
+        font-size: 1.5rem;
+    }
+    .figure{
+        font-size: 1.5rem;
+    }
+    .box{
+        width: 15rem;
+        height: 20rem;
+    }
+    footer{
+        margin-top: 7rem;
+        height: 7rem;
+        font-size: 1rem;
+    }
+}
+                    /*Mobile end*/
+                    /*Tablet start*/
+@media only screen and (max-width:768px){
+header{
+    font-size: 1rem;
+}
+}    
